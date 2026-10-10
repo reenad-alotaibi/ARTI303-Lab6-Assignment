@@ -1,0 +1,21 @@
+33 ?- consult(['c:/Users/reena/Downloads/cars.pl']).
+true.
+
+34 ?- can_buy(100000, red).
+With 80000 you can purchase the car datsun
+true .
+
+35 ?- can_buy(100000, blue).
+With 80000 you can purchase the truck ford
+true.
+
+36 ?- can_buy(100000, green).
+false.
+
+37 ?- can_buy(100000).
+With 90000 you can purchase the car ford
+true ;
+With 80000 you can purchase the car datsun
+true ;
+With 80000 you can purchase the truck ford
+true .

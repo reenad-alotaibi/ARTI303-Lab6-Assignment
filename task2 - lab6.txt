@@ -1,0 +1,85 @@
+
+38 ?- consult(['c:/Users/reena/Downloads/games.pl']).
+true.
+
+39 ?- menu.
+
+Welcome to the Prolog Game Selection
+
+Please choose any number
+--------------------------
+1 - to choose running games
+2 - to choose non-running games
+3 - to exit
+
+-->> Enter option: 1.
+
+Welcome to Running Games
+-------------------------
+1 - to choose to play with bat
+2 - to choose to play with racket
+3 - to choose to play with bare hands
+4 - to choose to play Football
+-->> Enter option: |: 4.
+
+--( You want to play Football )--
+
+
+Do you want to go back to the main menu (yes/no)? |: no.
+
+===< End >===
+true .
+
+40 ?- menu.
+
+Welcome to the Prolog Game Selection
+
+Please choose any number
+--------------------------
+1 - to choose running games
+2 - to choose non-running games
+3 - to exit
+
+-->> Enter option: 2.
+
+Welcome to Non-Running Games
+--------------------------
+1 - to choose to play individual
+2 - to choose to play in a group
+3 - to choose to play Chess
+-->> Enter option: |: 3.
+
+--<< You want to play Chess >>--
+
+
+Do you want to go back to the main menu (yes/no)? |: no.
+
+===< End >===
+true .
+
+40 ?- menu.
+
+Welcome to the Prolog Game Selection
+
+Please choose any number
+--------------------------
+1 - to choose running games
+2 - to choose non-running games
+3 - to exit
+
+-->> Enter option: 5.
+
+Sorry, you chose the wrong option...
+
+
+|: yes.
+
+Welcome to the Prolog Game Selection
+
+Please choose any number
+--------------------------
+1 - to choose running games
+2 - to choose non-running games
+3 - to exit
+
+|: > Enter option: |: 
